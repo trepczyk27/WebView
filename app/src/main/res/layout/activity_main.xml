@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/purple_200">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Odśwież"
+        android:id="@+id/bOds"
+        android:layout_marginLeft="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="przywróć"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/bPrzywroc"/>
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="powiększ"
+         android:layout_marginLeft="280dp"
+         android:id="@+id/bPow"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bZmiej"
+        android:layout_below="@id/bPrzywroc"
+        android:text="Zmniejsz"
+        android:layout_marginLeft="150dp"/>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="cofnij"
+    android:id="@+id/bCofnij"
+    android:layout_below="@+id/bPow"
+    android:layout_marginLeft="20dp"/>
+
+
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="640dp"
+        android:layout_marginTop="100dp"
+
+        android:id="@+id/web"/>
+
+
+</RelativeLayout>
